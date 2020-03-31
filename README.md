@@ -1,6 +1,8 @@
 # Hotels
 A single page app for booking hotels
 
-## Preview
-
 ## Installation
+- Install dependencies:
+  `$ npm install `
+- Run the project with Parcel:
+ ` $ npm start`
