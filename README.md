@@ -1,6 +1,12 @@
 # Hotels
 A single page app for booking hotels
 
+## Tools
+- Parcel
+- FontAwesome
+- React.js - Moment.js
+- Github Pages
+
 ## Installation
 - Install dependencies:
   `$ npm install `
