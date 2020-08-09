@@ -6,8 +6,8 @@
   "homepage": "https://zule10.github.io/hotels",
   "scripts": {
     "start": "parcel index.html",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "predeploy": "rm -rf dist && parcel build index.html --public--url /parcel-gh-pages-deploy",
+    "deploy": "gh-pages -d dist",
     "build": "parcel build index.html --public-url ./"
   },
   "atomic_save": "false",
